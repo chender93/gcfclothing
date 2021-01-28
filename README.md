@@ -59,7 +59,7 @@ Module 22: State<br>
 Ashley Warters, Curtis Henderson, and Lucianne Vazquez
 
 ### Tests 
-
+To tests the functions, we created a test folder (module 22.1.4) to test products, updates and categories.  
 
 ### Questions 
 * For questions, contact any team member using the following email addresses: ashwarters@gmail.com, lucianne12@aol.com<br> 
