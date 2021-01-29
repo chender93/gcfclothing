@@ -16,7 +16,7 @@ A Christian street wear company utilizing the MERN stack.
 The store provides a home page that will display about the company owner, products sold like men, women's and children's apparel and music among other.  It will save the selections to the customer's cart when they are logged into their account.  Customers will be able to see their order history.  
 
 ### Screenshots
-
+Add screenshot
 ##### Homepage
 ![Screenshots](./public/assets/homepage_screen.png)
 
