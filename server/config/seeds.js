@@ -153,7 +153,7 @@ db.once('open', async () => {
     password: 'password12345'
   });
 
-  console.log('users seeded');
+  console.log('New users seeded');
 
   process.exit();
 });
