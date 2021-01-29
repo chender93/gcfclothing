@@ -81,7 +81,7 @@ function Detail() {
 
     idbPromise('cart', 'delete', { ...currentProduct });
   };
-
+  console.log(currentProduct);
   return (
     <>
       {currentProduct && cart ? (
@@ -96,6 +96,13 @@ function Detail() {
             {currentProduct.description}
           </p>
 
+          <p>
+            <strong>Size:</strong>
+            <ul>{currentProduct?.sizes?.map(size=> (<li>
+              {size}
+            </li>))}
+            </ul>
+          </p>
           <p>
             <strong>Price:</strong>
             ${currentProduct.price}
