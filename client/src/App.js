@@ -11,7 +11,6 @@ import Signup from "./pages/Signup";
 import Newsletter from "./pages/Newsletter";
 import About from "./pages/About";
 import Nav from "./components/Nav";
-import Nav from "./components/AdminPage";
 import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from "./pages/OrderHistory";
 import AdminPage from "./pages/AdminPage";
