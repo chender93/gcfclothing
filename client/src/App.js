@@ -11,8 +11,10 @@ import Signup from "./pages/Signup";
 import Newsletter from "./pages/Newsletter";
 import About from "./pages/About";
 import Nav from "./components/Nav";
+import Nav from "./components/AdminPage";
 import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from "./pages/OrderHistory";
+import AdminPage from "./pages/AdminPage";
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -42,6 +44,7 @@ function App() {
               <Route exact path="/success" component={Success} />
               <Route exact path="/newsletter" component={Newsletter} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/adminPage" component={AdminPage} />
               <Route component={NoMatch} />
             </Switch>
           </StoreProvider>
