@@ -23,8 +23,15 @@ function About() {
                         <h3> About the Owner </h3>
                     </div>
                     <div className="flex-row">
-                        <p> Hello! My name is Curtis Henderson and I created GCF Clothing as a way to express my faith through fashion. I've always been passionate about creating and designing new things. I've enjoyed creating flyers, websites, films, tv episodes, and so much more. I believe that we were all created to create and no matter how big or how small our creations may be, they are valuable and should be shared with the world!</p>
+                        <p> Hello! My name is Curtis Henderson and I created GCF Clothing as a way to express my faith through fashion. I've always been passionate about creating and designing new things. I've enjoyed creating flyers, websites, films, tv episodes, and so much more. </p>
                     </div>
+                    <div className="flex-row">
+                        <h3> Company Motto </h3>
+                    </div>
+                    <div className="flex-row">
+                        <p> I believe that we were all created to create and no matter how big or how small our creations may be, they are valuable and should be shared with the world!</p>
+                    </div>
+
                 </div>    
             </>
       </div>
