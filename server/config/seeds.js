@@ -103,6 +103,7 @@ db.once('open', async() => {
             category: categories[3]._id,
             description: "Listen to the debut album of Contemporary Gospel Artist, Curtis Henderson. Hear the hits track That's My God along with brand new songs and collaborations",
             image: 'chapter1.jpg',
+            sizes: 'N/A',
             price: 12.50,
             quantity: 100
         },
@@ -111,23 +112,26 @@ db.once('open', async() => {
             category: categories[3]._id,
             description: "Listen to the debut album of Contemporary Gospel Artist, Curtis Henderson. Hear the hits track That's My God along with brand new songs and collaborations",
             image: 'tmgsingle.jpg',
+            sizes: 'N/A',
             price: 1.00,
             quantity: 100
         },
         //Category [4] Home Decor
         {
-            name: "She's Blessed Pillow",
+            name: "She's Blessed Pillow Cover",
             category: categories[4]._id,
             description: 'Spice up your home with this soft, smooth, custom designed Throw Pillow. You can add a touch of comfort to any living space. Pillow insert not included.',
             image: 'shespillow.JPG',
             price: 19.97,
+            sizes: '18x18',
             quantity: 100
         },
         {
-            name: "He's Blessed Pillow",
+            name: "He's Blessed Pillow Cover",
             category: categories[4]._id,
             description: 'Spice up your home with this soft, smooth, custom designed Throw Pillow. You can add a touch of comfort to any living space. Pillow insert not included.',
             image: 'hespillow.JPG',
+            sizes: '18x18',
             price: 19.97,
             quantity: 100
         },
