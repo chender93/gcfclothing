@@ -8,6 +8,7 @@ import "./style.css";
 import { QUERY_CHECKOUT } from '../../utils/queries';
 import { loadStripe } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/react-hooks';
+import cart from "./images/cart.png";
 
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
@@ -63,7 +64,11 @@ const Cart = () => {
       <div className="cart-closed" onClick={toggleCart}>
         <span
           role="img"
-          aria-label="trash">🛒</span>
+          aria-label="trash">
+            <img
+              alt="cart"
+             src={cart} />
+          </span>
       </div>
     );
   }
