@@ -9,7 +9,8 @@ db.once('open', async() => {
         { name: "T-Shirts" },
         { name: 'Acessories' },
         { name: 'Music' },
-        { name: 'Home Decor' }
+        { name: 'Home Decor' },
+        { name: 'Sale' }
     ]);
 
     console.log('Categories seeded');
@@ -75,6 +76,7 @@ db.once('open', async() => {
             description: "A snug, form-fitting beanie. It's not only a great head-warming piece but a staple accessory in anyone's wardrobe.",
             image: 'shes_blessed.jpg',
             price: 19.99,
+            sizes: 'OS',
             quantity: 200
         },
         {
@@ -83,6 +85,7 @@ db.once('open', async() => {
             description: "A snug, form-fitting beanie. It's not only a great head-warming piece but a staple accessory in anyone's wardrobe.",
             image: 'hes_blessed.jpg',
             price: 19.99,
+            sizes: 'OS',
             quantity: 200
         },
         {
@@ -91,6 +94,7 @@ db.once('open', async() => {
             description: "This case looks sleek, but it's tough. Its solid construction fits your phone perfectly, and it protects from scratches, dust, oil, and dirt. The smooth finish also makes it stylish and easy to hold.",
             image: 'blessed_case.jpg',
             price: 24.99,
+            sizes: 'OS',
             quantity: 300
         },
         //Category [3] Music
@@ -126,6 +130,27 @@ db.once('open', async() => {
             image: 'hespillow.jpg',
             price: 19.97,
             quantity: 100
+        },
+
+        //Category [5] Sale Items
+
+        {
+            name: "GCF Water Bottle (White)",
+            category: categories[5]._id,
+            description: 'Quench your thirst.',
+            image: 'GCFwaterbottle.jpg',
+            price: 69.99,
+            quantity: 100,
+            sizes: '32 oz.'
+        },
+        {
+            name: "GCF Water Bottle (Black)",
+            category: categories[5]._id,
+            description: 'Quench your thirst.',
+            image: 'GCFwaterbottle-b.png',
+            price: 69.99,
+            quantity: 100,
+            sizes: '32 oz.'
         }
     ]);
 

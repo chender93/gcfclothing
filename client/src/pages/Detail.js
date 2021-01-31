@@ -98,15 +98,16 @@ function Detail() {
 
           <p>
             <strong>Size:</strong>
-            <ul>{currentProduct?.sizes?.map(size=> (<li>
+            <select>{currentProduct?.sizes?.map(size=> (<option>
               {size}
-            </li>))}
-            </ul>
+            </option>))}
+            </select>
           </p>
           <p>
             <strong>Price:</strong>
             ${currentProduct.price}
             {" "}
+            
             <button onClick={addToCart}>
               Add to Cart
             </button>
