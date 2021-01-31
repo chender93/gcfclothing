@@ -31,7 +31,7 @@ db.once('open', async () => {
       name: "That's My God Unisex Hoodie",
       description:
         "Wear a constant reminder of all the things God is with this T-Shirt. You'll have all of your friends and family saying, That's My God!",
-      image: 'blessed_allover.jpg',
+      image: 'thats_my_god.jpg',
       category: categories[0]._id,
       price: 64.99,
       quantity: 500
@@ -130,7 +130,7 @@ db.once('open', async () => {
     }
   ]);
 
-  console.log('products seeded');
+  console.log('Products have been added');
 
   await User.deleteMany();
 
