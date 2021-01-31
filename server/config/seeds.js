@@ -13,7 +13,7 @@ db.once('open', async() => {
         { name: 'Sale' }
     ]);
 
-    console.log('Categories seeded');
+    console.log('Categories have been added/updated');
 
     await Product.deleteMany();
 
@@ -74,7 +74,7 @@ db.once('open', async() => {
             name: "She's Blessed Beanie",
             category: categories[2]._id,
             description: "A snug, form-fitting beanie. It's not only a great head-warming piece but a staple accessory in anyone's wardrobe.",
-            image: 'shes_blessed.jpg',
+            image: 'shes_blessed.JPG',
             price: 19.99,
             sizes: 'OS',
             quantity: 200
@@ -83,7 +83,7 @@ db.once('open', async() => {
             name: "He's Blessed Beanie",
             category: categories[2]._id,
             description: "A snug, form-fitting beanie. It's not only a great head-warming piece but a staple accessory in anyone's wardrobe.",
-            image: 'hes_blessed.jpg',
+            image: 'hes_blessed.JPG',
             price: 19.99,
             sizes: 'OS',
             quantity: 200
@@ -92,7 +92,7 @@ db.once('open', async() => {
             name: "Blessed Phone Case",
             category: categories[2]._id,
             description: "This case looks sleek, but it's tough. Its solid construction fits your phone perfectly, and it protects from scratches, dust, oil, and dirt. The smooth finish also makes it stylish and easy to hold.",
-            image: 'blessed_case.jpg',
+            image: 'blessed_case.JPG',
             price: 24.99,
             sizes: 'OS',
             quantity: 300
@@ -119,7 +119,7 @@ db.once('open', async() => {
             name: "She's Blessed Pillow",
             category: categories[4]._id,
             description: 'Spice up your home with this soft, smooth, custom designed Throw Pillow. You can add a touch of comfort to any living space. Pillow insert not included.',
-            image: 'shespillow.jpg',
+            image: 'shespillow.JPG',
             price: 19.97,
             quantity: 100
         },
@@ -127,7 +127,7 @@ db.once('open', async() => {
             name: "He's Blessed Pillow",
             category: categories[4]._id,
             description: 'Spice up your home with this soft, smooth, custom designed Throw Pillow. You can add a touch of comfort to any living space. Pillow insert not included.',
-            image: 'hespillow.jpg',
+            image: 'hespillow.JPG',
             price: 19.97,
             quantity: 100
         },
@@ -154,7 +154,7 @@ db.once('open', async() => {
         }
     ]);
 
-    console.log('products seeded');
+    console.log('Products have been added/updated');
 
     await User.deleteMany();
 
@@ -175,7 +175,7 @@ db.once('open', async() => {
         password: 'password12345'
     });
 
-    console.log('users seeded');
+    console.log('Test Users have been added');
 
     process.exit();
 });
