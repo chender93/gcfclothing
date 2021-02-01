@@ -15,7 +15,7 @@ function Footer() {
             <a href="https://www.facebook.com/givechristfirstclothing/" className="btn btn-primary">Facebook</a>
         </div>
         <div width="100%" align="center">
-            <p>Created by Curtis Henderson, 2021</p>
+            <p>Created by Curtis Henderson, Ashley Warters, and Lucianne Vazquez, 2021</p>
         </div>
     </footer>
     )
