@@ -45,7 +45,7 @@ function Nav() {
             </Link>
           </li>
           <li className="mx-1">
-            <Link to="/adminpage">
+            <Link to="/adminPage">
               Admin Page
             </Link>
           </li>
