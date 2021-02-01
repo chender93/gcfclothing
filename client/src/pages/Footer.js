@@ -4,27 +4,18 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer>
-        <div>
-            <ul className="flex-row">
-                <li className="mx-1">
-                    <Link to="/adminPage">
-                        Admin Page
-                    </Link>
-                </li>
-                <li>
-                <a href="https://www.linkedin.com/in/curtis-henderson-b22a0271/" class="btn btn-primary">LinkedIn</a>
-                </li>
-                <li>
-                <a href="https://www.instagram.com/givechristfirst/" class="btn btn-primary">Instagram</a>
-                </li>
-                <li>
-                <a href="https://www.facebook.com/givechristfirstclothing/" class="btn btn-primary">Facebook</a>
-                </li>
-            </ul>
+    <footer>
+        <div width="100%" align="center">
+            <a href="/adminPage">Admin Page</a>
+            |
+            <a href="https://www.linkedin.com/in/curtis-henderson-b22a0271/" className="btn btn-primary">LinkedIn</a>
+            |
+            <a href="https://www.instagram.com/givechristfirst/" className="btn btn-primary">Instagram</a>
+            |
+            <a href="https://www.facebook.com/givechristfirstclothing/" className="btn btn-primary">Facebook</a>
         </div>
-        <div class=".card">
-            Created by Curtis Henderson, 2021
+        <div width="100%" align="center">
+            <p>Created by Curtis Henderson, 2021</p>
         </div>
     </footer>
     )

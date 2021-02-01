@@ -48,6 +48,7 @@ function App() {
               <Route exact path="/footer" component={Footer} />
               <Route component={NoMatch} />
             </Switch>
+            <Footer/>
           </StoreProvider>
         </div>
       </Router>

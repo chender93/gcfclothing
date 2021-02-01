@@ -44,11 +44,11 @@ function Nav() {
               Login
             </Link>
           </li>
-          <li className="mx-1">
+          {/* <li className="mx-1">
             <Link to="/adminPage">
               Admin Page
             </Link>
-          </li>
+          </li> */}
         </ul>
       );
     }
