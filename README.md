@@ -50,6 +50,9 @@ Other installations used while coding:
 * npm install if-env
 * npm install -D concurrently 
 * npm install react-router-dom 
+* npm install jwt-decode
+* npm install stripe
+* npm install @stripe/stripe-js
 
 ### Credits
 References/Resources: 
@@ -61,6 +64,7 @@ Module 21: MERN
 * Apollo Mutation Resolver, https://www.apollographql.com/docs/tutorial/mutation-resolvers/ <br>
 * Apollo Schema, https://www.apollographql.com/docs/tutorial/schema/ <br>
 * Map Function, https://www.pluralsight.com/guides/how-to-use-the-map()-function-to-export-javascript-in-react <br>
+* Google Analytics, https://analytics.google.com/analytics/web/provision/#/provision <br> 
 
 ### License
 ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg) <br>
@@ -72,7 +76,7 @@ Ashley Warters, Curtis Henderson, and Lucianne Vazquez
 We tested did end user testing and confirmed the global state was passing.  Unit tested for rendering component trees and running the complete application.   
 
 ### Questions 
-* For questions, contact any team member using the following email addresses: ashwarters@gmail.com, lucianne12@aol.com<br> 
+* For questions, contact any team member using the following email addresses: info@gcfclothing.com, ashwarters@gmail.com, lucianne12@aol.com<br> 
 * GitHub Usernames: Chender93, Lucianne302 and Ashwarters
 * Repository Link: https://github.com/chender93/gcfclothing.git
 * Heroku Deployed App Link: https://gcfclothing.herokuapp.com/
