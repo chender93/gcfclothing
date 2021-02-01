@@ -23,7 +23,7 @@ function Success() {
         
       setTimeout(() => {
         window.location.assign('/');
-      }, 3000);
+      }, 60000);
     }
 
     saveOrder();
@@ -34,11 +34,14 @@ function Success() {
       <Jumbotron>
         <h1>Success!</h1>
         <h2>
-          Thank you for your purchase!
+          Thank you for your purchase! 
         </h2>
         <h2>
-          You will now be redirected to the home page
+          You will now be redirected to the home page.  
         </h2>
+        <p>
+          We would like to hear about your experience at <a href="mailto:info@gcfclothing.com">info@gcfclothing.com</a>.<br></br>
+        </p>
       </Jumbotron>
     </div>
   );
