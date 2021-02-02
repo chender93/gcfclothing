@@ -106,6 +106,7 @@ db.once('open', async() => {
             sizes: 'N/A',
             price: 12.50,
             quantity: 100
+
         },
         {
             name: "Curtis Henderson - That's My God (Single)",
