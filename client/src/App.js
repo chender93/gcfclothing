@@ -16,6 +16,7 @@ import OrderHistory from "./pages/OrderHistory";
 import AdminPage from "./pages/AdminPage";
 import Footer from "./pages/Footer";
 
+
 const client = new ApolloClient({
   request: (operation) => {
     const token = localStorage.getItem('id_token')
@@ -50,6 +51,7 @@ function App() {
             </Switch>
             <Footer/>
           </StoreProvider>
+        
         </div>
       </Router>
     </ApolloProvider>

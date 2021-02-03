@@ -32,6 +32,9 @@ const productSchema = new Schema({
     },
     sizes: {
         type: [String]
+    },
+    music: {
+        type: Number
     }
 });
 

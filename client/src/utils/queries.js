@@ -18,6 +18,7 @@ export const QUERY_PRODUCTS = gql `
       quantity
       image
       sizes
+      music
       category {
         _id
       }
