@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from '@apollo/react-hooks';
 
-
 import Cart from "../components/Cart";
 import { useStoreContext } from "../utils/GlobalState";
 import {
@@ -82,7 +81,18 @@ function Detail() {
 
     idbPromise('cart', 'delete', { ...currentProduct });
   };
-  console.log(currentProduct);
+
+  
+//  function getMusic() {
+//    if (currentProduct.music === 2) {
+//    return <iframe src="https://open.spotify.com/embed/track/2oCMBtfvM5mCC2eF4Macn1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+//   } else if((currentProduct.music === 1)) {
+//  return <iframe src="https://open.spotify.com/embed/album/40qjZgwmxxR00Y1kh8mfpa" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+//   }
+//  return null;
+//   }
+ 
   return (
     <>
       {currentProduct && cart ? (
@@ -125,6 +135,8 @@ function Detail() {
             src={`/images/${currentProduct.image}`}
             alt={currentProduct.name}
           />
+          {/* <div>{getMusic}</div> */}
+          
         </div>
       ) : null}
       {
@@ -135,4 +147,8 @@ function Detail() {
   );
 };
 
+
 export default Detail;
+
+
+

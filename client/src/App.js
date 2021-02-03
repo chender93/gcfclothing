@@ -15,6 +15,7 @@ import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from "./pages/OrderHistory";
 import AdminPage from "./pages/AdminPage";
 
+
 const client = new ApolloClient({
   request: (operation) => {
     const token = localStorage.getItem('id_token')
@@ -47,6 +48,7 @@ function App() {
               <Route component={NoMatch} />
             </Switch>
           </StoreProvider>
+        
         </div>
       </Router>
     </ApolloProvider>

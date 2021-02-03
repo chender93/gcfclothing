@@ -105,7 +105,8 @@ db.once('open', async() => {
             image: 'chapter1.jpg',
             sizes: 'N/A',
             price: 12.50,
-            quantity: 100
+            quantity: 100,
+            music: 1
 
         },
         {
@@ -115,7 +116,8 @@ db.once('open', async() => {
             image: 'tmgsingle.jpg',
             sizes: 'N/A',
             price: 1.00,
-            quantity: 100
+            quantity: 100,
+            music: 2
         },
         //Category [4] Home Decor
         {
