@@ -13,7 +13,17 @@
 ### Description 
 A Christian street wear company utilizing the MERN stack.  
 
-The store provides a home page that will display about the company owner, products sold like men, women's and children's apparel and music among other.  It will save the selections to the customer's cart when they are logged into their account.  Customers will be able to see their order history.  
+The store provides a home page that will display about the company owner, products sold like men, women's and children's apparel and music among other.  It will save the selections to the customer's cart when they are logged into their account.  Customers will be able to see their order history.
+
+User Story: 
+As a user, I can use the navigation to view About, Products, Sales & Clearance items, Newsletter, and login to my Profile. As a user, I can add a product to my cart and select quantity.  
+
+As a user, when I login to my profile, I can review my saved orders.  
+
+When I login to my profile, I can review my order history.
+
+As an Administrator, I will login to the administrator profile to view Google Analytics 
+
 
 ### Screenshots
 Add screenshot
@@ -47,23 +57,26 @@ Other installations used while coding:
 ### Credits
 References/Resources: 
 Module 21: MERN
-Module 22: State<br>
 * NPM Express, https://www.npmjs.com/package/express-session <br> 
 * NPM bcrypt, https://www.npmjs.com/package/bcrypt <br> 
 * dotenv, https://www.npmjs.com/package/dotenv <br> 
+* Apollo Mutations, https://www.apollographql.com/docs/tutorial/mutations/ <br> 
+* Apollo Mutation Resolver, https://www.apollographql.com/docs/tutorial/mutation-resolvers/ <br>
+* Apollo Schema, https://www.apollographql.com/docs/tutorial/schema/ <br>
+* Map Function, https://www.pluralsight.com/guides/how-to-use-the-map()-function-to-export-javascript-in-react <br>
+* Google Analytics, https://analytics.google.com/analytics/web/provision/#/provision <br> 
 
 ### License
-![License: ](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg) <br>
+![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg) <br>
 
 ### Contributors
 Ashley Warters, Curtis Henderson, and Lucianne Vazquez
 
 ### Tests 
-To tests the functions, we created a test folder (module 22.1.4) to test products, updates and categories.  
+We tested did end user testing and confirmed the global state was passing.  Unit tested for rendering component trees and running the complete application.   
 
 ### Questions 
-* For questions, contact any team member using the following email addresses: ashwarters@gmail.com, lucianne12@aol.com<br> 
-* GitHub Usernames: chender93, Lucianne302 and ashwarters
+* For questions, contact any team member using the following email addresses: info@gcfclothing.com, ashwarters@gmail.com, lucianne12@aol.com<br> 
+* GitHub Usernames: Chender93, Lucianne302 and Ashwarters
 * Repository Link: https://github.com/chender93/gcfclothing.git
-* Heroku Deployed App Link: 
-
+* Heroku Deployed App Link: https://gcfclothing.herokuapp.com/
