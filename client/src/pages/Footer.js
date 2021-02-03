@@ -12,6 +12,8 @@ function Footer() {
             | 
             <a href="https://www.facebook.com/givechristfirstclothing/" className="btn btn-primary">Facebook</a>
             | 
+            <a href="https://open.spotify.com/artist/2mfltUlJKu5rCjHyO5Hkut?si=5S2C6N2dR8aXu9AScNOmkg">Spotify</a>
+            | 
             <a href="/adminPage">Admin Page</a>
             
         </div>
