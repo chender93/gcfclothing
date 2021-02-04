@@ -1,6 +1,6 @@
   
 import React from 'react';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -14,7 +14,7 @@ function Footer() {
             <a href="/adminPage">Admin</a>
             
             <div width="100%" >
-            <p class= 'created-by'>Created by Curtis Henderson, Ashley Warters, and Lucianne Vazquez, 2021</p>
+            <p className= 'created-by'>Created by Curtis Henderson, Ashley Warters, and Lucianne Vazquez, 2021</p>
         </div>
         </div>
         

@@ -39,10 +39,10 @@ function CategoryMenu() {
   };
 
   return (
-    <div class='choose-category'>
-      <h2 class='selection'>Choose a Category:</h2>
+    <div className='choose-category'>
+      <h2 className='selection'>Choose a Category:</h2>
       {categories.map(item => (
-        <button  class= 'menu-hover-lines'
+        <button  className= 'menu-hover-lines'
           key={item._id}
           onClick={() => {
             handleClick(item._id);
