@@ -300,6 +300,33 @@ div.card.px-1.py-1 {
 /* end of all products */
 
 
+/* product detail page */
+
+#grid {
+    display: grid;
+}
+
+#grid-container {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#grid-container2 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-content: center;
+}
+
+
+/* end of detail page */
+
+
 /* about page */
 
 #about-title {
@@ -388,10 +415,11 @@ div.card.px-1.py-1 {
 #date-entry {
     text-decoration: underline;
     text-indent: 10px;
+    text-align: center;
 }
 
 #news-p {
-    margin-bottom: 170px;
+    margin-bottom: 150px;
     text-indent: 25px;
     padding-top: 15px;
     background-color: whitesmoke;
@@ -408,9 +436,11 @@ div.card.px-1.py-1 {
     padding-top: 25px;
     margin-top: 100px;
     margin-bottom: 100px;
-    justify-content: center;
     background-color: whitesmoke;
     border-radius: 25px 25px 25px 25px;
+    font-size: 18px;
+    width: 55%;
+    justify-content: center;
 }
 
 #signup-head {
@@ -430,6 +460,7 @@ div.card.px-1.py-1 {
     justify-content: center;
     background-color: whitesmoke;
     border-radius: 25px 25px 25px 25px;
+    width: 45%;
 }
 
 #login-head {
@@ -445,6 +476,24 @@ div.card.px-1.py-1 {
 /* end of login page */
 
 
+/* admin page */
+
+#admin {
+    margin-top: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#admin-login {
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+
+/* end of admin page */
+
+
 /* footer */
 
 .footer {
@@ -458,6 +507,12 @@ a.btn.btn-primary {
 }
 
 #root>div>footer>div:nth-child(1)>a:nth-child(4) {
+    margin-left: 20px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+}
+
+#footer>div>a:nth-child(3) {
     margin-left: 20px;
     font-family: "Playfair Display", serif;
     font-size: 16px;

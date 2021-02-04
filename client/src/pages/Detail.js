@@ -96,17 +96,24 @@ function Detail() {
   return (
     <>
       {currentProduct && cart ? (
-        <div className="container my-1">
+        <div className="container my-1" id='grid'>
           <Link to="/">
             ← Back to Products
           </Link>
+
+          <div id='grid-container'>
 
           <h2>{currentProduct.name}</h2>
 
           <p>
             {currentProduct.description}
           </p>
-
+          <img
+            src={`/images/${currentProduct.image}`}
+            alt={currentProduct.name}
+          />
+          </div>
+          <div id='grid-container2'>
           <p>
             <strong>Size:</strong>
             <select>{currentProduct?.sizes?.map(size=> (<option>
@@ -118,26 +125,27 @@ function Detail() {
             <strong>Price:</strong>
             ${currentProduct.price}
             {" "}
-            
+            </p>
+            <div>
             <button onClick={addToCart}>
-              Add to Cart
+              Add
             </button>
             <button 
               disabled={!cart.find(p => p._id === currentProduct._id)} 
               onClick={removeFromCart}
             >
-              Remove from Cart
+              Remove
             </button>
-
-          </p>
-
-          <img
-            src={`/images/${currentProduct.image}`}
-            alt={currentProduct.name}
-          />
-          {/* <div>{getMusic}</div> */}
+            </div>
           
-        </div>
+          </div>
+
+          
+          {/* <div>{getMusic}</div> */}
+
+          </div>
+          
+        
       ) : null}
       {
         loading ? <img src={spinner} alt="loading" /> : null
