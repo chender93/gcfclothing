@@ -95,9 +95,10 @@ button {
     width: var(--width);
     height: var(--height);
     text-align: center;
+    display: inline-block;
     line-height: var(--height);
     font-size: calc(var(--height) / 2.5);
-    font-family: sans-serif;
+    font-family: "Playfair Display", serif;
     letter-spacing: 0.2em;
     border: 1px solid gray;
     border-radius: 2em;
@@ -231,6 +232,20 @@ input:focus {
     }
 }
 
+
+/* logo */
+
+.logo {
+    height: 45px;
+    width: 105px;
+}
+
+
+/* end of logo */
+
+
+/* landing page/category */
+
 div.choose-category {
     margin: 0;
     padding: 0;
@@ -248,7 +263,10 @@ h2.selection {
 }
 
 
-/* product category selection */
+/* end landing page/category */
+
+
+/* our products selection */
 
 h2.products {
     text-align: center;
@@ -266,11 +284,188 @@ h2.products {
     transition: all 0.35s ease;
 }
 
-
-/* cards for products */
-
 div.card.px-1.py-1 {
     background-color: whitesmoke;
     border-radius: 25px 25px 25px 25px;
     margin-bottom: 10px;
 }
+
+.price-display {
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 10px;
+}
+
+
+/* end of all products */
+
+
+/* about page */
+
+#about-title {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 50px;
+}
+
+#company {
+    justify-content: center;
+}
+
+#about-company {
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 30px;
+}
+
+#about-all {
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#curtis-intro {
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#motto-all {
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+#about-owner {
+    justify-content: center;
+}
+
+#owner {
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 30px;
+}
+
+#company-motto {
+    justify-content: center;
+}
+
+#motto {
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 30px;
+}
+
+
+/* end of about page */
+
+
+/* Newsletter page */
+
+#newsletter-head {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#news-sub {
+    justify-content: center;
+}
+
+#newsletter-sub {
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 100px;
+}
+
+#date-entry {
+    text-decoration: underline;
+    text-indent: 10px;
+}
+
+#news-p {
+    margin-bottom: 170px;
+    text-indent: 25px;
+    padding-top: 15px;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+/* end of Newsletter page */
+
+
+/* signup page */
+
+#signup-all {
+    padding-top: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#signup-head {
+    text-decoration: underline;
+}
+
+
+/* end of signup page */
+
+
+/* login page */
+
+#login-all {
+    padding-top: 25px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#login-head {
+    text-decoration: underline;
+}
+
+#login-email,
+#login-password {
+    font-size: 18px;
+}
+
+
+/* end of login page */
+
+
+/* footer */
+
+.footer {
+    position: relative;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+a.btn.btn-primary {
+    margin-left: 20px;
+}
+
+#root>div>footer>div:nth-child(1)>a:nth-child(4) {
+    margin-left: 20px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+}
+
+.created-by {
+    color: grey;
+}
+
+
+/* end footer */

@@ -47,9 +47,9 @@ function ProductItem(item) {
         <p>{name}</p>
       </Link>
       <div>
-        <span>${price}</span>
+        <span class='price-display'>${price}</span>
       </div>
-      <button onClick={addToCart}>Add to cart</button>
+      <button onClick={addToCart}>Add to Cart</button>
     </div>
   );
 }

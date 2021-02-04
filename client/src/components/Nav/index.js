@@ -1,7 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-
+import logo from './images/logo.png';
 function Nav() {
 
   function showNavigation() {
@@ -68,7 +68,8 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/"> 
-          GCF Clothing
+        <img className='logo' alt='logo' src={logo} />
+          
         </Link>
       </h1>
 

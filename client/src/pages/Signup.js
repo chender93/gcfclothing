@@ -33,8 +33,11 @@ function Signup(props) {
       <Link to="/login">
         ← Go to Login
       </Link>
-
-      <h2>Signup</h2>
+      <div id='signup-all'>
+        <div>
+      <h2 id='signup-head'>Signup:</h2>
+    
+      </div>
       <form onSubmit={handleFormSubmit}>
         <div className="flex-row space-between my-2">
           <label htmlFor="firstName">First Name:</label>
@@ -82,6 +85,7 @@ function Signup(props) {
           </button>
         </div>
       </form>
+      </div>
     </div>
   );
 
