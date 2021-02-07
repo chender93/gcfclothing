@@ -28,13 +28,13 @@ As an Administrator, I will login to the administrator profile to view Google An
 ### Screenshots
 Add screenshot
 ##### Homepage
-![Screenshots](./public/assets/homepage_screen.png)
+![Screenshots](./client/public/assets/homepage_screen.PNG)
 
 ##### About
-![Screenshots](./public/assets/about.png)
+![Screenshots](./client/public/assets/about.png)
 
 ##### Newsletter
-![Screenshots](./public/assets/newsletter.png)
+![Screenshots](./client/public/assets/newsletter.png)
 
 
 ### Installation
