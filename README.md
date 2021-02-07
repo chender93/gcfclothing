@@ -33,11 +33,8 @@ Add screenshot
 ##### About
 ![Screenshots](./public/assets/about.png)
 
-##### Products
-![Screenshots](./public/assets/products.png)
-
-##### Music
-![Screenshots](./public/assets/music.png)
+##### Newsletter
+![Screenshots](./public/assets/newsletter.png)
 
 ### Installation
 Start by running an "npm i" in your terminal followed by creating a .env file with the database name, username and password. npm run seed, followed by npm start. 
