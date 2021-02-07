@@ -26,7 +26,7 @@ As an Administrator, I will login to the administrator profile to view Google An
 
 
 ### Screenshots
-Add screenshot
+
 ##### Homepage
 ![Screenshots](./client/public/assets/homepage_screen.PNG)
 
