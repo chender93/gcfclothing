@@ -31,10 +31,10 @@ Add screenshot
 ![Screenshots](./client/public/assets/homepage_screen.PNG)
 
 ##### About
-![Screenshots](./client/public/assets/about.png)
+![Screenshots](./client/public/assets/about.PNG)
 
 ##### Newsletter
-![Screenshots](./client/public/assets/newsletter.png)
+![Screenshots](./client/public/assets/newsletter.PNG)
 
 
 ### Installation
